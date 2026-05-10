@@ -628,8 +628,6 @@ nav a:hover::after{
 
 }
 
-/* DARK LOWER HALF OVERLAY */
-
 .project-image::after{
 
     content: "";
@@ -682,8 +680,6 @@ nav a:hover::after{
     saturate(0.9);
 
 }
-
-/* DARK OVERLAY */
 
 .profile-image::after{
 
@@ -980,6 +976,40 @@ nav a:hover::after{
     line-height: 1.8;
 
     margin-bottom: 15px;
+
+}
+
+.contact-info{
+
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 18px;
+
+    align-items: center;
+
+}
+
+.contact-info p{
+
+    color: var(--secondary-text);
+
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    font-size: 0.95rem;
+
+}
+
+.contact-info i{
+
+    color: var(--accent);
+
+    width: 20px;
 
 }
 
